@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Materialize -->
+    <link rel="stylesheet" href="../css/materialize/css/materialize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../css/fontawesome/css/all.css" />
+    <!-- Styelesheet -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Homart | Login</title>
+  </head>
+  <body>
+    <div class="login" style="margin-top: 5rem">
+      <div class="container">
+        <div class="card row">
+          <div class="card-content">
+            <h1 class="center flow-text grey-text">LOGIN</h1>
+            <form>
+              <div class="input-field">
+                <input type="email" id="mail" class="validate" />
+                <label for="mail" class="active">Email</label>
+              </div>
+              <div class="input-field">
+                <input type="password" id="password" class="validate" />
+                <label for="password" class="active">Password</label>
+              </div>
+              <div class="redirect">
+                <p class="left">
+                  Don't have an account?
+                  <span><a href="./signup.html">Sign Up</a></span>
+                </p>
+                <p class="right">
+                  <a href="./reset-password.html">Forgot Password?</a>
+                </p>
+                <div class="clearfix"></div>
+              </div>
+              <div class="input-field">
+                <input
+                  type="submit"
+                  value="SUBMIT"
+                  class="btn blue-grey darken-3"
+                  id="submit"
+                />
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
+    <script src="../js/jQuery/jquery-3.4.1.js"></script>
+    <script src="../css/materialize/js/materialize.js"></script>
+  </body>
+</html>
